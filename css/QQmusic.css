@@ -1,0 +1,1083 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #000000;
+	list-style: none;
+	box-sizing: border-box;
+	}
+a:hover{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+body{
+background-color: rgb(255, 255, 255);	
+}
+main{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+}
+.titlebox{
+	width: 100%;
+	
+}
+.titlebox>ul{
+	width: 100%;
+	overflow: hidden;
+	color: #000000;
+	border-bottom:#e7e7e7 solid 1px;
+	/* display: flex; */
+	
+}
+/* 头部 */
+.titlebox>ul>li{
+	/* flex: 1; */
+	float: left;
+	margin-right: 10px;
+}
+
+.titlebox>ul>li:hover a{
+	color:rgb(49,194,124) ;
+}
+/* logo */
+.titlebox>ul>li:nth-of-type(1){
+	text-align: center;
+	line-height: 100px;
+	width: 200px;
+	height: 100px;
+	margin-left: 50px;
+}
+/* 音乐馆 */
+.titlebox>ul>li:nth-of-type(2){
+	text-align: center;
+	line-height: 100px;
+	font-size: 1.5em;
+	width: 150px;
+	height: 100px;
+	color: #fff;
+	background-color: rgb(49,194,124);
+}
+.titlebox>ul>li:nth-of-type(2)>a{
+	color: #fff;
+}
+.titlebox>ul>li:nth-of-type(2)>a:hover{
+	color: #fff;
+}
+/* 我的音乐 */
+.titlebox>ul>li:nth-of-type(3){
+	text-align: center;
+	line-height: 100px;
+	font-size: 1.5em;
+	width: 112px;
+	height: 100px;
+	color: #000;
+}
+/* 客户端 */
+.titlebox>ul>li:nth-of-type(4){
+	margin-right: 40px;
+}
+/* 开放平台 */
+.titlebox>ul>li:nth-of-type(5){
+	margin-right: 40px;
+}
+/* VIP */
+.titlebox>ul>li:nth-of-type(6){
+	margin-right: 40px;
+}
+.titlebox>ul>li:nth-of-type(7){
+	margin-right: 40px;
+}
+.titlebox>ul>li:nth-of-type(8){
+	margin-right: 40px;
+}
+.titlestyle{
+	text-align: center;
+	line-height: 100px;
+	font-size: 1.5em;
+	height: 100px;
+	color: #000;
+}
+
+/* 搜索框 */
+.inputli{
+	width: 300px;
+	top: 30px;
+	position: relative;
+	
+}
+/* 搜索框符号 */
+.layui-icon-search{
+	width: 40px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	background-color: transparent ;
+	position: absolute;
+	right: 0px;
+	top: -5px;
+}
+.layui-icon-search:hover{
+	color: #009688;
+}
+/* 开通VIP */
+.titlebox>ul>li:nth-of-type(9){
+	
+	background-color:rgb(49,194,124);
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	margin-top:30px ;
+	position: relative;
+}
+.titlebox>ul>li:nth-of-type(9)>a{
+	color: #fff;
+}
+.titlebox>ul>li:nth-of-type(9):hover a{
+	color: #fff;
+}
+/* 开通VIP符号 */
+#layui-icon-triangle-d1{
+	position: absolute;
+	right: 5px;
+	color: #fff;
+}
+.titlebox>ul>li:nth-of-type(9):hover span{
+	transform: rotateX(180deg);
+}
+/* 充值 */
+.titlebox>ul>li:nth-of-type(10){
+	border: #8d8d8d 0.5px solid;
+	color: #000;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top:30px ;
+	position: relative;
+}
+.titlebox>ul>li:nth-of-type(10):hover{
+	background-color:rgb(49,194,124) ;
+	border: #ffffff 0.5px solid;
+}
+.titlebox>ul>li:nth-of-type(10):hover a{
+	color:#fff ;
+	
+}
+#layui-icon-triangle-d2{
+	position: absolute;
+	right: 5px;
+	width: #000;
+}
+.titlebox>ul>li:nth-of-type(10):hover span{
+	color: #fff;
+	
+}
+/* ================================================ */
+/* 标题第二行 */
+.titlebox2{
+	overflow: hidden;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.titlebox2>ul{
+	/* margin-left: 260px; */
+}
+.titlebox2>ul>li{
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right:50px ;
+}
+.titlestyle2{
+	color:#000000;
+	font-size: 1.2em;
+}
+.titlebox2>ul>li:nth-of-type(1)>a{
+	color: rgb(49,194,124);
+}
+.titlebox2>ul>li:hover a{
+	color: rgb(49,194,124);
+}
+/* ================================================= */
+/* 歌单推荐 */
+.SLR-title>h1{
+	color: rgb(51,51,51);
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bolder;
+}
+.SLR-title2{
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.SLR-title2>ul{
+	overflow: hidden;
+}
+.SLR-title2>ul>li{
+	float: left;
+	margin-right: 54px;
+}
+.SLR-title2>ul>li:nth-of-type(1){
+	
+}
+.SLR-title2>ul>li:nth-of-type(1)>a{
+	color: rgb(49,194,124);
+}
+.SLR-title2>ul>li:hover a{
+	color: rgb(49,194,124);
+}
+/* 推荐轮播 */
+#Carouselmap1>div>div>ul>li{
+	position: relative;
+	float: left;
+}
+#Carouselmap1>div>div>ul>li:nth-of-type(1){
+	margin-left:80px ;
+}
+#Carouselmap1>div>div>ul{
+	display: flex;
+}
+#Carouselmap1>div>div>ul>li{
+	/* margin-right: 20px; */
+	flex: 1;
+}
+#Carouselmap1>div>div>ul>li>div>div:nth-of-type(1):hover span{
+	transform: scale(1);
+}
+#Carouselmap1>div>div>ul>li>div>div:nth-of-type(1):hover img{
+	transform: scale(1.1);
+	
+}
+.box>div>img{
+	width: 225px;
+	height: 225px;
+	transition: 0.9s;
+}
+.box-title:hover{
+	color:rgb(49,194,124) ;
+}
+.imgs{
+	overflow: hidden;
+	border-radius: 8px;
+}
+.box>div>span{
+	transform: scale(0);
+	transition: 0.9s;
+	color: #fff;
+	font-size: 4.5em;
+	position: absolute;
+	left: 85px;
+	top: 85px;
+}
+.box>div:nth-of-type(2){
+	margin-top: 10px;
+}
+.box>div:nth-of-type(3){
+	margin-top: 2px;
+	color: #a3a3a3;
+}
+.layui-carousel-arrow{
+	width: 60px;
+	height: 100px;
+	color: #000000;
+	background-color: rgb(239,239,239);
+	transition: 1s;
+	border-radius: 0px;
+}
+.layui-carousel-arrow:hover{
+	background-color: rgb(226,226,226);
+}
+.layui-this{
+	background-color: #0000FF
+}
+/* ===================================================== */
+/* 新歌首发 */
+.NewSongStarts{
+	position: relative;
+}
+/* 标题 */
+.NSS-title>h1{
+	color: rgb(51,51,51);
+	width: 100%;
+	text-align: center;
+	/* padding-left: 680px; */
+	margin-top: 60px;
+	font-weight: bolder;
+}
+/* 菜单栏 */
+.NSS-title2{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* padding-left: 540px; */
+	
+}
+.NSS-title2>ul>li{
+	float: left;
+	margin-right: 50px;
+	
+}
+.NSS-title2>ul>li:hover{
+	color:rgb(49,194,124) ;
+}
+.NSS-title2>ul>li:nth-of-type(1){
+	color:rgb(49,194,124) ;
+}
+.NSS-title2>ul{
+	overflow: hidden;
+	background-color: #fff;
+	padding-bottom: 60px;
+}
+/* 全部播放 */
+.NSS-Playitall{
+	position: relative;
+	width: 120px;
+	height: 40px;
+	padding-left: 22px;
+	padding-top: 10px;
+	border: solid 1px #c6c6c6;
+	left: 160px;
+	top: 28px;
+}
+.NSS-Playitall:hover{
+	background-color: rgb(237,237,237);
+}
+/* 轮播图 */
+#Carouselmap2{
+	margin: 0 auto;
+}
+#Carouselmap2>div>div>ul{
+	margin-left: 140px;
+	
+}
+#Carouselmap2>div>div>ul>li{
+	float: left;
+	
+}
+.cl-box{
+	position: relative;
+	width: 380px;
+	height: 90px;
+	margin-right: 30px;
+	margin-bottom: 13px;
+}
+/* li里面的图片 */
+.cl-imgbox{
+	position: relative;
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	
+}
+.cl-imgbox:hover img{
+	transform: scale(1.1);
+}
+.cl-imgbox:hover span{
+	transform: scale(1);
+}
+.cl-imgbox>img{
+	width: 100%;
+	height: 100%;
+	transition: 0.9s;
+}
+.cl-imgbox>span{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	font-size: 3em;
+	color: #fff;
+	transform: scale(0);
+	transition: 0.9s;
+}
+.cl-box>div{
+	float: left;
+}
+.cl-duration{
+	position: absolute;
+	right: 0px;
+	height: 90px;
+	line-height: 90px;
+
+}
+.cl-title{
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.cl-title:hover{
+	color:rgb(49,194,124) ;
+}
+.cl-author{
+	color: rgb(153,153,153);
+	margin-left: 20px;
+}
+.cl-author:hover{
+	color:rgb(49,194,124) ;
+}
+.cl-duration{
+	color: rgb(153,153,153);
+	margin-left: 80px;
+}
+/* ===================================================== */
+/* 精彩推荐 */
+.rd-title>h1{
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 80px;
+	margin-bottom: 55px;
+}
+#Carouselmap3>div>div>ul>li>img{
+	width: 590px;
+	height: 235px;
+}
+#Carouselmap3>div>div>ul>li{
+	float: left;
+}
+#Carouselmap3>div>div>ul{
+	margin-left: 250px;
+	
+}
+#Carouselmap3>div>div>ul>li:nth-of-type(1){
+	margin-right: 20px;
+}
+/* ===================================================== */
+/* 新碟首发 */
+/* 标题 */
+.NDL-title>h1{
+	color: rgb(51,51,51);
+	width: 100%;
+	text-align: center;
+	/* padding-left: 680px; */
+	margin-top: 60px;
+	font-weight: bolder;
+}
+/* 菜单栏 */
+.NDL-title2{
+	position: relative;
+	width: 100%;
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	/* padding-left: 540px; */	
+}
+.NDL-title2>ul>li{
+	float: left;
+	margin-right: 50px;	
+}
+.NDL-title2>ul>li:hover{
+	color:rgb(49,194,124) ;
+}
+.NDL-title2>ul>li:nth-of-type(1){
+	color:rgb(49,194,124) ;
+}
+.NDL-title2>ul{
+	overflow: hidden;
+	background-color: #fff;
+	padding-bottom: 60px;
+}
+/* 更多 */
+.NDL-title2>span{
+	position: absolute;
+	right: 250px;
+	top: 0px;
+}
+.NDL-title2>span:hover{
+	color:rgb(49,194,124) ;
+}
+/* 轮播图 */
+#Carouselmap4{
+	margin: 0 auto;
+}
+.cl4-imgbox{
+	position: relative;
+	width: 225px;
+	height: 225px;
+	overflow: hidden;
+}
+.cl4-imgbox>img{
+	width: 100%;
+	height: 100%;
+	transition: 0.9s;
+}
+/* 播放按钮 */
+.cl4-imgbox>span{
+	font-size: 5.5em;
+	color: #fff;
+	top: 75px;
+	left: 75px;
+	position: absolute;
+	transform: scale(0);
+	transition: 0.9s;
+}
+.cl4-imgbox:hover span{
+	transform: scale(1);
+}
+.cl4-imgbox:hover img{
+	transform: scale(1.1);
+}
+/* 歌手 */
+.cl4-name{
+	width: 225px;
+	color: rgb(153,153,153);
+}
+/* 歌名 */
+.cl4-title{
+	margin-top: 20px;
+}
+/* 图片标题,歌手鼠标移入 */
+.cl4-title:hover,.cl4-name:hover{
+	color:rgb(49,194,124) ;
+	}
+
+
+/* 布局 */
+#Carouselmap4>div>div>ul>li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+#Carouselmap4>div>div>ul{
+	margin-left: 154px;
+}
+/* ========================================= */
+/* 排行榜 */
+.RL-title>h1{
+	color: rgb(51,51,51);
+	width: 100%;
+	text-align: center;
+	/* padding-left: 680px; */
+	margin-top: 60px;
+	font-weight: bolder;
+	position: relative;
+}
+.RL-title{
+	position: relative;
+}
+.RL-title>span{
+	position: absolute;
+	right: 265px;
+	top: 10px;
+}
+.RL-title>span:hover{
+	color:rgb(49,194,124) ;
+}
+.bgimg1{
+	position: relative;
+	background-image: url(../img/bg1.jpg);
+	width: 245px;
+	height: 500px;
+	
+}
+.bgimg2{
+	position: relative;
+	background-image: url(../img/bg2.jpg);
+	width: 245px;
+	height: 500px;
+}
+.bgimg3{
+	position: relative;
+	background-image: url(../img/bg3.jpg);
+	width: 245px;
+	height: 500px;
+}
+.bgimg4{
+	position: relative;
+	background-image: url(../img/bg4.jpg);
+	width: 245px;
+	height: 500px;
+}
+.bgimg5{
+	position: relative;
+	background-image: url(../img/bg5.jpg);
+	width: 245px;
+	height: 500px;
+}
+.bgimg1,.bgimg2,.bgimg3,.bgimg4,.bgimg5{
+	transition: 0.9s;
+}
+.innerbox{
+	width: 245px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.imgboxs>ul{
+	margin-left: 210px;
+	overflow: hidden;
+}
+.in-name{
+	position: absolute;
+	color: #fff;
+	font-size: 24px;
+	top: 55px;
+	left: 90px;
+}
+.in-title{
+	position: absolute;
+	left:90px ;
+	top:88px ;
+	font-size: 30px;
+	color: #fff;
+}
+.in-title2{
+	position: absolute;
+	left:65px ;
+	top:88px ;
+	font-size: 30px;
+	color: #fff;
+}
+.in-Symbol>span:nth-of-type(1){
+	position: absolute;
+	top: 148px;
+	left: 100px;
+	font-size: 3em;
+	color: #fff;
+	transition: 0.9s;
+}
+.in-Symbol>span:nth-of-type(2){
+	position: absolute;
+	top: 153px;
+	left: 100px;
+	font-size: 3em;
+	color: #fff;
+	transform: scale(0);
+	transition: 0.9s;
+}
+.in-musics{
+	position: absolute;
+	top: 220px;
+	left: 35px;
+}
+.m1{
+	color: #fff;
+	margin-bottom: 40px;
+}
+.m1>p{
+	color: #fff;
+}
+.innerbox:hover .d{
+	transform: scale(1.1);
+}
+.innerbox:hover .in-Symbol>span:nth-of-type(1){
+	transform: scale(0);
+}
+.innerbox:hover .in-Symbol>span:nth-of-type(2){
+	transform: scale(1);
+}
+.imgboxs>ul>li{
+	float: left;
+	margin-right: 25px;
+}
+.m1>p{
+	margin-bottom: 5px;
+}
+.imgboxs{
+	margin-top: 38px;
+}
+/* ========================================= */
+/* MV */
+.MV-title>h1{
+	color: rgb(51,51,51);
+	width: 100%;
+	text-align: center;
+	/* padding-left: 680px; */
+	margin-top: 60px;
+	font-weight: bolder;
+	position: relative;
+}
+/* 菜单栏 */
+.MV-title2{
+	position: relative;
+	width: 100%;
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	/* padding-left: 540px; */	
+}
+.MV-title2>ul{
+	margin-left: 45px;
+}
+.MV-title2>ul>li{
+	float: left;
+	margin-right: 50px;
+	
+}
+.MV-title2>ul>li:hover{
+	color:rgb(49,194,124) ;
+}
+.MV-title2>ul>li:nth-of-type(1){
+	color:rgb(49,194,124) ;
+}
+/* 更多 */
+.MV-title2>span{
+	position: absolute;
+	right: 250px;
+	top: 0px;
+}
+.MV-title2>span:hover{
+	color:rgb(49,194,124) ;
+}
+/* 轮播图 */
+.MV-imgbox{
+	position: relative;
+	width: 255px;
+	height: 130px;
+	overflow: hidden;
+}
+.MV-imgbox>img{
+	width: 100%;
+	height: 100%;
+	transition: 0.9s;
+}
+.MV-imgbox>span{
+	font-size: 4.5em;
+	color: #fff;
+	position: absolute;
+	left: 100px;
+	top: 35px;
+	transform: scale(0);
+	transition: 0.9s;
+}
+.MV-name,.MV-PlaybackVolume,.MV-PlaybackVolume>span{
+	color: rgb(153,153,153);
+	margin-top: 5px;
+}
+.MV-Songtitle{
+	margin-top: 20px;
+}
+.MV-imgbox:hover img{
+	transform: scale(1.1);
+}
+.MV-imgbox:hover span{
+	transform: scale(1);
+}
+.MV-Songtitle:hover,.MV-name:hover{
+	color:rgb(49,194,124) ;
+}
+/* 布局 */
+#Carouselmap5>div>div>ul>li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 55px;
+}
+#Carouselmap5>div>div>ul{
+	margin-left: 80px;
+	margin-top: 55px;
+}
+#Carouselmap5{
+	margin-left: 120px;
+}
+/* ==================================================== */
+/* 页脚 */
+.footer{
+	height: 645px;
+	width: 99%;
+	background-color: rgb(51,51,51);
+	/* background-color: #fff; */
+	position: relative;
+}
+.footer-box{
+	position: relative;
+}
+.logo1{
+	position: absolute;
+	top: 125px;
+	left: 320px;
+	width: 350px;
+	height: 150px;
+}
+.logo1>div{
+	float: left;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+.logo1>div>span,.logo1>p{
+	color: rgb(127,127,127) ;
+}
+.logo1>div>span:nth-of-type(1){
+	font-size: 3em;
+}
+#Android,#iPhone{
+	margin-left: 10px;
+}
+.logo1>div:hover span{
+	color:rgb(49,194,124) ;
+}
+.logo2{
+	position: absolute;
+	top: 125px;
+	left: 720px;
+	width: 350px;
+	height: 170px;
+}
+.logo2>div{
+	float: left;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+.logo2>div>span,.logo2>p{
+	color: rgb(127,127,127) ;
+}
+.logo2>div>span:nth-of-type(1){
+	font-size: 3em;
+	
+}
+#qq,#wx,#wb{
+	margin-left:8px;
+}
+.logo2>div:nth-of-type(1):hover span:nth-of-type(1){
+	color: #00FF00;
+}
+.logo2>div:nth-of-type(1):hover span:nth-of-type(2){
+	color:rgb(49,194,124) ;
+}
+.logo2>div:nth-of-type(2):hover span:nth-of-type(1){
+	color: #55aaff;
+}
+.logo2>div:nth-of-type(2):hover span:nth-of-type(2){
+	color:rgb(49,194,124) ;
+}
+.logo2>div:nth-of-type(3):hover span:nth-of-type(1){
+	color: #ff5500;
+}
+.logo2>div:nth-of-type(3):hover span:nth-of-type(2){
+	color:rgb(49,194,124) ;
+}
+.logo3{
+	position: absolute;
+	top: 125px;
+	right: 250px;
+	width: 290px;
+	height: 170px;
+}
+.logo3>div>ul>li{
+	float: left;
+	margin-right: 30px;
+}
+.logo3-box{
+	margin-top: 40px;
+}
+.logo3>p,.logo3-box>ul>li{
+	color: rgb(127,127,127) ;
+}
+.logo3-box>ul>li:hover{
+	color:rgb(49,194,124) ;
+}
+.logo4{
+	position: absolute;
+	top: 380px;
+	left: 320px;
+	width: 220px;
+	height: 80px;
+}
+.logo4>p{
+	color: rgb(127,127,127) ;
+}
+.logo4-box>ul>li{
+	float: left;
+	margin-right: 20px;
+	color: rgb(127,127,127) ;
+}
+.logo4-box>ul{
+	margin-top: 40px;
+}
+.logo4-box>ul>li:hover{
+	color:rgb(49,194,124) ;
+}
+.logo5{
+	position: absolute;
+	top: 380px;
+	left: 780px;
+	width: 120px;
+	height: 90px;
+}
+.logo5>div:nth-of-type(2){
+	margin-top: 40px;
+}
+.logo5>div:nth-of-type(2):hover{
+	color:rgb(49,194,124) ;
+}
+.logo5>div{
+	color: rgb(127,127,127) ;
+}
+
+.logo6{
+	position: absolute;
+	bottom: -640px;
+	left: 480px;
+	width: 690px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+}
+.logo6>div{
+	color: rgb(127,127,127) ;
+}
+.logo6>div:hover{
+	color:rgb(49,194,124) ;
+}
+/* ========== */
+#login-btn>img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: none;
+}
+.logintext{
+	display: none;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50%;
+	background-color:rgb(49,194,124) ;
+	color: #fff;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-left: 0px;
+	cursor: pointer;
+	
+	}
+/* =================================================== */
+/*登录界面 */
+#loginbox{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/musiclogin.jpg);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	display: none;
+}
+.logininnerbox{
+	width: 1600px;
+	height: 700px;
+	background-color:rgb(49,194,124);
+	padding: 20px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loginleft{
+	width: 1000px;
+	height: 660px;
+	background:url(../img/musiclogin.jpg) no-repeat;
+	background-size: 120%;
+	border-radius: 50px;
+	margin-right: 30px;
+}
+.loginright{
+	margin-top: 50px;
+	width: 500px;
+	height: 660px;
+	/* background-color: #009688; */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.loginright>p{
+	color: #fff;
+	font-size: 4em;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.loginright>input{
+	height: 70px;
+	width: 480px;
+	padding-left: 20px;
+	border: none;
+	border-radius: 20px;
+	margin-bottom: 40px;
+	font-size: 1.5em;
+}
+.loginright>div>span{
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	border-radius: 20px;
+	margin-right: 20px;
+	transition: 1s;
+	cursor: pointer;
+}
+.loginright>div>span:nth-of-type(1){
+	background-color: #78e08f;
+	
+}
+.loginright>div>span:nth-of-type(1):hover{
+	background-color: #5fb171;
+}
+.loginright>div>span:nth-of-type(2){
+	background-color: #e55039;
+	
+}
+.loginright>div>span:nth-of-type(2):hover{
+	background-color: #ad3c2a;
+}
+.no{
+	position: absolute;
+	top: 20px;
+	display: none;
+	align-items: center;
+	/* justify-content: center; */
+	flex-direction: column;
+	width: 200px;
+	height: 100px;
+	background-color: #ff5500;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.no>p:nth-of-type(1){
+	color: #fff;
+	font-size: 2em;
+}
+.no>p:nth-of-type(2){
+	width: 100px;
+	height: 40px;
+	background-color: #00ff7f;
+	color: #fff;
+	font-size: 1.5em;
+	border-radius: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.no>p:nth-of-type(2):hover{
+	background-color: #00b859;
+}
+
+
+
+

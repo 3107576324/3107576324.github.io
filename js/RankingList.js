@@ -1,0 +1,54 @@
+var LoginStatus=false;
+$(".content-loginbtn").click(function(){
+	$(".content").hide();
+	$(".music-main").show();
+		$("#login-btn>a").hide();
+		$("#login-btn>img").show();
+		LoginStatus=true;
+})
+
+$("#login-btn").mousemove(function(){
+	if(LoginStatus){
+		$("#login-btn>img").hide();
+		$("#login-btn>span").css("display","block");
+	}
+})
+$("#login-btn").mouseout(function(){
+	if(LoginStatus){
+		$("#login-btn>img").show();
+		$("#login-btn>span").css("display","none");
+	}
+})
+$("#login-btn").click(function(){
+	if(LoginStatus){
+		if(confirm("确定退出吗？")){
+			$("#login-btn>img").hide();
+			$("#login-btn>span").css("display","none");
+			$("#login-btn>a").show();
+			$(".content").show();
+			$(".music-main").hide();
+			LoginStatus=false;
+		}
+	}else{
+		$(".content").hide();
+		$(".music-main").show();
+			$("#login-btn>a").hide();
+			$("#login-btn>img").show();
+			LoginStatus=true;
+	}
+})
+/* 歌曲列表 */
+$(".body-musics>ul>li").mouseover(function(){
+	$($(this)[0].children[2]).css("display","inline-block");
+	$($(this)[0].children[5].children[0]).css("display","none");
+	$($(this)[0].children[5].children[1]).css("display","inline-block");
+})
+$(".body-musics>ul>li").mouseout(function(){
+	$(".musics-btns").css("display","none");
+	$(".musics-time").css("display","inline-block");
+	$(".musics-duration>span:nth-of-type(2)").css("display","none");
+})
+/* 按钮功能 */
+$(".play").click(function(){
+	window.location.href="播放器/player.html";
+})

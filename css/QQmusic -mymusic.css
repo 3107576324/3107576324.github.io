@@ -1,0 +1,627 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #000000;
+	list-style: none;
+	box-sizing: border-box;
+	}
+a:hover{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+body{
+background-color: rgb(255, 255, 255);	
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+main{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+}
+.titlebox{
+	width: 100%;
+	
+}
+.titlebox>ul{
+	width: 100%;
+	overflow: hidden;
+	color: #000000;
+	border-bottom:#e7e7e7 solid 1px;
+	display: flex;
+	
+}
+/* 头部 */
+.titlebox>ul>li{
+	flex: 1;
+	float: left;
+	margin-right: 10px;
+}
+.titlebox>ul>li:nth-of-type(7){
+	flex: 2;
+}
+.titlebox>ul>li:hover a{
+	color:rgb(49,194,124) ;
+}
+/* logo */
+.titlebox>ul>li:nth-of-type(1){
+	text-align: center;
+	line-height: 100px;
+	width: 200px;
+	height: 100px;
+}
+/* 音乐馆 */
+.titlebox>ul>li:nth-of-type(2){
+	text-align: center;
+	line-height: 100px;
+	font-size: 1.5em;
+	width: 100%;
+	height: 100px;
+	color: #000;
+}
+.titlebox>ul>li:nth-of-type(2)>a{
+	color: #000;
+}
+.titlebox>ul>li:nth-of-type(2)>a:hover{
+	color:rgb(49,194,124);
+}
+/* 我的音乐 */
+.titlebox>ul>li:nth-of-type(3){
+	text-align: center;
+	line-height: 100px;
+	font-size: 1.5em;
+	width: 112px;
+	height: 100px;
+	color: #fff;
+	background-color: rgb(49,194,124);
+}
+.titlebox>ul>li:nth-of-type(3)>a{
+	color: #fff;
+}
+.titlestyle{
+	text-align: center;
+	line-height: 100px;
+	font-size: 1.5em;
+	height: 100px;
+	color: #000;
+}
+
+/* 搜索框 */
+.inputli{
+	width: 600px;
+	top: 30px;
+	position: relative;
+}
+/* 搜索框符号 */
+.layui-icon-search{
+	width: 40px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	background-color: transparent ;
+	position: absolute;
+	right: 0px;
+	top: -5px;
+}
+.layui-icon-search:hover{
+	color: #009688;
+}
+/* 开通VIP */
+.titlebox>ul>li:nth-of-type(9){
+	
+	background-color:rgb(49,194,124);
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	margin-top:30px ;
+	position: relative;
+}
+.titlebox>ul>li:nth-of-type(9)>a{
+	color: #fff;
+}
+.titlebox>ul>li:nth-of-type(9):hover a{
+	color: #fff;
+}
+/* 开通VIP符号 */
+#layui-icon-triangle-d1{
+	position: absolute;
+	right: 5px;
+	color: #fff;
+}
+.titlebox>ul>li:nth-of-type(9):hover span{
+	transform: rotateX(180deg);
+}
+/* 充值 */
+.titlebox>ul>li:nth-of-type(10){
+	border: #8d8d8d 0.5px solid;
+	color: #000;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top:30px ;
+	position: relative;
+}
+.titlebox>ul>li:nth-of-type(10):hover{
+	background-color:rgb(49,194,124) ;
+	border: #ffffff 0.5px solid;
+}
+.titlebox>ul>li:nth-of-type(10):hover a{
+	color:#fff ;
+	
+}
+#layui-icon-triangle-d2{
+	position: absolute;
+	right: 5px;
+	width: #000;
+}
+.titlebox>ul>li:nth-of-type(10):hover span{
+	color: #fff;
+	
+}
+
+/* ==================================================== */
+/* 页脚 */
+.footer{
+	height: 645px;
+	width: 1714px;
+	background-color: rgb(51,51,51);
+	position: relative;
+	display:block;
+	
+}
+.footer-box{
+	position: relative;
+}
+.logo1{
+	position: absolute;
+	top: 125px;
+	left: 320px;
+	width: 350px;
+	height: 150px;
+}
+.logo1>div{
+	float: left;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+.logo1>div>span,.logo1>p{
+	color: rgb(127,127,127) ;
+}
+.logo1>div>span:nth-of-type(1){
+	font-size: 3em;
+}
+#Android,#iPhone{
+	margin-left: 10px;
+}
+.logo1>div:hover span{
+	color:rgb(49,194,124) ;
+}
+.logo2{
+	position: absolute;
+	top: 125px;
+	left: 720px;
+	width: 350px;
+	height: 170px;
+}
+.logo2>div{
+	float: left;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+.logo2>div>span,.logo2>p{
+	color: rgb(127,127,127) ;
+}
+.logo2>div>span:nth-of-type(1){
+	font-size: 3em;
+	
+}
+#qq,#wx,#wb{
+	margin-left:8px;
+}
+.logo2>div:nth-of-type(1):hover span:nth-of-type(1){
+	color: #00FF00;
+}
+.logo2>div:nth-of-type(1):hover span:nth-of-type(2){
+	color:rgb(49,194,124) ;
+}
+.logo2>div:nth-of-type(2):hover span:nth-of-type(1){
+	color: #55aaff;
+}
+.logo2>div:nth-of-type(2):hover span:nth-of-type(2){
+	color:rgb(49,194,124) ;
+}
+.logo2>div:nth-of-type(3):hover span:nth-of-type(1){
+	color: #ff5500;
+}
+.logo2>div:nth-of-type(3):hover span:nth-of-type(2){
+	color:rgb(49,194,124) ;
+}
+.logo3{
+	position: absolute;
+	top: 125px;
+	right: 250px;
+	width: 290px;
+	height: 170px;
+}
+.logo3>div>ul>li{
+	float: left;
+	margin-right: 30px;
+}
+.logo3-box{
+	margin-top: 40px;
+}
+.logo3>p,.logo3-box>ul>li{
+	color: rgb(127,127,127) ;
+}
+.logo3-box>ul>li:hover{
+	color:rgb(49,194,124) ;
+}
+.logo4{
+	position: absolute;
+	top: 380px;
+	left: 320px;
+	width: 220px;
+	height: 80px;
+}
+.logo4>p{
+	color: rgb(127,127,127) ;
+}
+.logo4-box>ul>li{
+	float: left;
+	margin-right: 20px;
+	color: rgb(127,127,127) ;
+}
+.logo4-box>ul{
+	margin-top: 40px;
+}
+.logo4-box>ul>li:hover{
+	color:rgb(49,194,124) ;
+}
+.logo5{
+	position: absolute;
+	top: 380px;
+	left: 780px;
+	width: 120px;
+	height: 90px;
+}
+.logo5>div:nth-of-type(2){
+	margin-top: 40px;
+}
+.logo5>div:nth-of-type(2):hover{
+	color:rgb(49,194,124) ;
+}
+.logo5>div{
+	color: rgb(127,127,127) ;
+}
+
+.logo6{
+	position: absolute;
+	bottom: -640px;
+	left: 480px;
+	width: 690px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+}
+.logo6>div{
+	color: rgb(127,127,127) ;
+}
+.logo6>div:hover{
+	color:rgb(49,194,124) ;
+}
+/* =========================== */
+/* 内容部分 */
+.content{
+	position: relative;
+	width: 1714px;
+	height: 885px;
+	background: url(../img/login.jpg) no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* display: none; */
+}
+.content-title{
+	color: #fff;
+	font-size: 4em;
+}
+.content-Ftitle{
+	margin-top: 20px;
+	color: #fff;
+	font-size: 2em;
+}
+.content-loginbtn{
+	margin-top: 20px;
+	width: 130px;
+	height: 50px;
+	background-color: rgb(49,194,124) ;
+	border: none;
+	color: #fff;
+	font-size: 22px;
+	border-radius: 3px;
+}
+/* 点击登录后 */
+#login-btn>img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 30px;
+	display: none;
+}
+#loginbtn{
+	margin-left: 130px;
+	margin-top: 40px;
+}
+.logintext{
+	display: none;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50%;
+	background-color:rgb(49,194,124) ;
+	color: #fff;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-left: 29px;
+	}
+.music-main{
+	position: relative;
+	display: none;
+	 width: 1714px;
+	/* height: 885px; */
+	/* background-color: #0000FF; */
+}
+.main-head{
+	width: 100%;
+	height: 380px;
+	background-image: url(../img/mymusic.jpg);
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.main-headportrait{
+	margin-top: 65px;
+	height: 110px;
+	width: 110px;
+	
+}
+.main-name{
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+}
+.main-headportrait>img{
+	width: 100%;
+	border-radius: 50%;
+	border: #fff solid 5px;
+}
+.main-text{
+	margin-top: 55px;
+	margin-left: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.follow>p:nth-of-type(1),.fans>p:nth-of-type(1){
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	
+}
+.follow>p:nth-of-type(1):hover,.fans>p:nth-of-type(1):hover{
+	color: rgb(49,194,124);
+	cursor: pointer;
+}
+.follow{
+	border-right: 1px #fff solid;
+	border-color: #000000;
+	padding-right: 20px;
+}
+.fans{
+	margin-left: 20px;
+}
+.follow>p:nth-of-type(2),.fans>p:nth-of-type(2){
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+}
+.main-title{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+.main-title>ul>li{
+	font-size: 1.2em;
+	float: left;
+	cursor: pointer;
+	color: #fff;	
+	margin-right: 40px;
+}
+.main-title>ul>li:nth-of-type(1){
+	color: rgb(49,194,124);
+}
+.main-title>ul>li:hover{
+	color: rgb(49,194,124);
+}
+/* 歌单部分 */
+.main-body{
+	position: relative;
+	width: 100%;
+	/* height:2550px; */
+	/* background-color: #ffffff; */
+}
+.body-title{
+	overflow: hidden;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+.body-title>ul>li{
+	font-size: 1.2em;
+	float: left;
+	cursor: pointer;
+	color: #000;	
+	margin-right: 55px;
+}
+.body-title>ul>li:nth-of-type(1){
+	color: rgb(49,194,124);
+}
+.body-title>ul>li:hover{
+	color: rgb(49,194,124);
+}
+.body-btns{
+	overflow: hidden;
+	margin-top: 55px;
+	margin-left: 20px;
+}
+.body-btns>ul>li{
+	float: left;
+	margin-right: 10px;
+}
+.body-btns>ul>li>div{
+	width: 122px;
+	height: 38px;
+	border: gray 1px solid;
+	line-height: 38px;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+.body-btns>ul>li>div>span{
+	color: #8d8d8d;
+}	
+.body-btns>ul>li:nth-of-type(1)>div>a{
+	color: #fff;
+}
+.body-btns>ul>li:nth-of-type(1)>div{
+	color:rgb(255, 255, 255); 
+	background-color: rgb(49,194,124);
+	border: none;
+}
+.body-btns>ul>li:nth-of-type(1)>div>span{
+	color: #fff;
+}
+.body-btns>ul>li:hover{
+	background-color: rgb(225, 225, 225);
+}
+.body-btns>ul>li:nth-of-type(1):hover>div{
+	background-color: rgb(44,175,111);
+}
+/* 列表菜单栏 */
+.body-title2{
+	overflow: hidden;
+	margin-left: 63px;
+	margin-top: 40px;
+}
+.body-title2>ul>li{
+	float: left;
+	color: #9c9c9c;
+}
+.body-title2>ul>li:nth-of-type(1){
+	margin-right: 520px;
+}
+.body-title2>ul>li:nth-of-type(2){
+	margin-right: 500px;
+}
+.body-title2>ul>li:nth-of-type(3){
+	margin-right: 500px;
+}
+/* 歌曲格式 */
+.body-musics{
+	margin-top: 30px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+
+.body-musics>ul>li{
+	margin-bottom: 20px;
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	/* background-color: #0000FF; */
+}
+.body-musics>ul>li span{
+	display: inline-block;
+	
+}
+.body-musics>ul>li>span{
+	position: absolute;
+}
+/* 间距 */
+.musics-musicname{
+	left: 42px;
+}
+.musics-name{
+	left: 585px;
+}
+.musics-Album{
+	left: 1120px;
+}
+.musics-duration{
+	left: 1645px;
+}
+.musics-btns{
+	left: 400px;
+}
+
+/* 按钮样式 */
+.musics-btns>span,.musics-duration>span:nth-of-type(2){
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	border: 1px solid #939393;
+	color: #939393 ;
+	font-size: 1.5em;
+}
+.musics-btns>span{
+	margin-left: 5px;
+}
+/* 序号，时长 */
+.musics-no,.musics-time{
+	color: #939393;
+}
+.body-musics>ul>li>span:nth-of-type(6)>span:nth-of-type(2),
+.body-musics>ul>li>span:nth-of-type(3){
+	display: none;
+}
+/* 变化 */
+.musics-btns>span:hover,.musics-duration>span:nth-of-type(2):hover{
+	color:rgb(44,175,111) ;
+	border-color:rgb(44,175,111) ;
+}
+.musics-musicname:hover,.musics-name:hover,.musics-Album:hover{
+	color: rgb(44,175,111);
+}
+
+
+
+
+
+
+

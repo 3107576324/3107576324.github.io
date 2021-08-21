@@ -1,0 +1,96 @@
+{
+    "songs": [
+        
+        {
+            "music": "See You Again",
+            "singer": "Ward Burner /Gerald Ritch",
+            "playbill": "image/playbill/s2.jpg",
+            "url": "music/m2.mp3",
+            "album": "See You Again",
+            "totalTime": "03:48",
+            "lyric": "music/see you again.txt"
+        },
+		{
+		    "music": "Love is Gone (温柔女声版)",
+		    "singer": "小陈陈",
+		    "playbill": "image/playbill/s1.jpg",
+		    "url": "music/m1.mp3",
+		    "album": "Love Is Gone",
+		    "totalTime": "2:57",
+		    "lyric": "music/无.txt"
+		},
+		
+		{
+		    "music": "2020抖音最火音乐串烧",
+		    "singer": "抖音神曲",
+		    "playbill": "image/playbill/s3.jpg",
+		    "url": "music/m3.flac",
+		    "album": "2021抖音神曲合集",
+		    "totalTime": "6:40",
+		    "lyric": "music/无.txt"
+		},
+		{
+		    "music": "Love is Gone (抖音热播原版)",
+		    "singer": "杨胖雨 /你的大表哥曲甲",
+		    "playbill": "image/playbill/s4.jpg",
+		    "url": "music/m4.mp3",
+		    "album": "2020年抖音最火音乐",
+		    "totalTime": "3:42",
+		    "lyric": "music/无.txt"
+		},
+		{
+		    "music": "那年·年少",
+		    "singer": "宋宇宁",
+		    "playbill": "image/playbill/s5.jpg",
+		    "url": "music/m5.flac",
+		    "album": "那年·年少",
+		    "totalTime": "4:21",
+		    "lyric": "music/无.txt"
+		},
+		{
+		    "music": "国王与乞丐",
+		    "singer": "华晨宇",
+		    "playbill": "image/playbill/s6.jpg",
+		    "url": "music/m6.mp3",
+		    "album": "异类",
+		    "totalTime": "4:05",
+		    "lyric": "music/国王与乞丐.txt"
+		},
+		{
+		    "music": "稻香(女声版)",
+		    "singer": "琪轩",
+		    "playbill": "image/playbill/s7.jpg",
+		    "url": "music/m7.mp3",
+		    "album": "I AM A MAN",
+		    "totalTime": "03:38",
+		    "lyric": "music/稻香歌词.txt"
+		},
+		{
+		    "music": "平凡之路",
+		    "singer": "打扰一下乐团",
+		    "playbill": "image/playbill/s8.jpg",
+		    "url": "music/m8.mp3",
+		    "album": "世界不会轻易崩塌",
+		    "totalTime": "5:02",
+		    "lyric": "music/平凡之路.txt"
+		},
+		{
+		    "music": "和光同尘",
+		    "singer": "周深",
+		    "playbill": "image/playbill/s9.jpg",
+		    "url": "music/m9.mp3",
+		    "album": "异类",
+		    "totalTime": "4:08",
+		    "lyric": "music/无.txt"
+		},
+		{
+		    "music": "纸短情长",
+		    "singer": "烟把儿乐队",
+		    "playbill": "image/playbill/s10.jpg",
+		    "url": "music/m10.mp3",
+		    "album": "纸短情长",
+		    "totalTime": "5:00",
+		    "lyric": "music/纸短情长.txt"
+		}
+    ]
+}

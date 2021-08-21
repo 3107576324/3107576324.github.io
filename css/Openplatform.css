@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+main{
+	width:100vw;
+	height: 100vh;
+	position: relative;
+	background: url(../img/khdbj4.jpg);
+}
+.logo{
+	width: 160px;
+	height: 45px;
+	position: absolute;
+	top: 50px;
+	left: 80px;
+}
+.logo>a>img{
+	width: 100%;
+	height: 100%;
+}
+.btns{
+	position: absolute;
+	right: 450px;
+	top: 53px;
+}
+.btns>a,
+.btns>a>span{
+	color: #fff;
+}
+.btns>a{
+	position: absolute;
+	display: inline-block;
+}
+.btns>a:nth-of-type(2){
+
+	left: 130px;
+}
+.btns>a:nth-of-type(3){
+	left: 260px;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+.btns>a:nth-of-type(3):hover{
+	border: rgb(49,194,124) solid 1px;
+}
+.btns>a:nth-of-type(1),
+.btns>a:nth-of-type(2){
+	width: 110px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 20px;
+}
+.btns>a:hover,
+.btns>a:hover span{
+	text-decoration: none;
+	color: rgb(49,194,124);
+}
+.img{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	top: 250px;
+	left: 600px;
+}
+.img>img{
+	width: 100%;
+	height: 100%;
+}
+.ljrzbox{
+	position: absolute;
+	bottom: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ljrz{
+	display: inline-block;
+	color: #000000;
+	background-color: rgb(0,237,89);
+	width: 260px;
+	height: 70px;
+	font-size: 3em;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 40px;
+}
+.uls{
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 60px;
+}
+.uls>ul>li{
+	color: #fff;
+	font-size: 20px;
+	float: left;
+	margin-right: 75px;
+}
+.uls>ul>li:nth-of-type(5){
+	margin-right: 0px;
+}
