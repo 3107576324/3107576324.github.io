@@ -1007,8 +1007,8 @@ main{
 .loginright>p{
 	color: #fff;
 	font-size: 4em;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .loginright>input{
 	height: 70px;
@@ -1077,7 +1077,16 @@ main{
 .no>p:nth-of-type(2):hover{
 	background-color: #00b859;
 }
-
+.loginright>div{
+	width: 100%;
+}
+.loginright>div>.ps{
+	font-size: 20px;
+	color: #fff;
+	margin-left: 20px;
+	height: 40px;
+	line-height: 40px;
+}
 
 
 
