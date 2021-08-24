@@ -981,7 +981,7 @@ main{
 	justify-content: center;
 	align-items: center;
 	
-	/* display: none; */
+	display: none;
 }
 .logininnerbox{
 	width: 1600px;
