@@ -53,7 +53,7 @@ layui.use('carousel', function() {
 	});
 	carousel.render({
 		elem: '#Carouselmap5',
-		width: '1510px' //设置容器宽度
+		width: '1550px' //设置容器宽度
 			,
 		height: '600px' //设置容器高度
 			,

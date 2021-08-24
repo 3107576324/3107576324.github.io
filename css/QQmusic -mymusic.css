@@ -117,6 +117,10 @@ main{
 .layui-icon-search:hover{
 	color: #009688;
 }
+/* 登录 */
+#login-btn{
+	width: 80px;
+}
 /* 开通VIP */
 .titlebox>ul>li:nth-of-type(9){
 	
@@ -135,6 +139,10 @@ main{
 }
 .titlebox>ul>li:nth-of-type(9):hover a{
 	color: #fff;
+}
+/* 登录 */
+#login-btn{
+	width: 80px;
 }
 /* 开通VIP符号 */
 #layui-icon-triangle-d1{
