@@ -50,5 +50,5 @@ $(".body-musics>ul>li").mouseout(function(){
 })
 /* 按钮功能 */
 $(".play").click(function(){
-	window.location.href="播放器/player.html";
+	window.open("播放器/player.html");
 })
