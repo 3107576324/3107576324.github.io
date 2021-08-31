@@ -186,7 +186,7 @@ main{
 /* 页脚 */
 .footer{
 	height: 645px;
-	width: 1714px;
+	width: 100%;
 	background-color: rgb(51,51,51);
 	position: relative;
 	display:block;
@@ -222,7 +222,7 @@ main{
 .logo2{
 	position: absolute;
 	top: 125px;
-	left: 720px;
+	left: 820px;
 	width: 350px;
 	height: 170px;
 }
@@ -262,7 +262,7 @@ main{
 .logo3{
 	position: absolute;
 	top: 125px;
-	right: 250px;
+	right: 300px;
 	width: 290px;
 	height: 170px;
 }
@@ -320,7 +320,7 @@ main{
 .logo6{
 	position: absolute;
 	bottom: -640px;
-	left: 480px;
+	left: 580px;
 	width: 690px;
 	height: 70px;
 	display: flex;
@@ -338,7 +338,7 @@ main{
 /* 内容部分 */
 .content{
 	position: relative;
-	width: 1714px;
+	width: 100%;
 	height: 885px;
 	background: url(../img/login.jpg) no-repeat;
 	display: flex;
@@ -395,7 +395,8 @@ main{
 .music-main{
 	position: relative;
 	display: none;
-	 width: 1714px;
+	 width: 100%;
+	
 	/* height: 885px; */
 	/* background-color: #0000FF; */
 }
@@ -459,6 +460,7 @@ main{
 	position: absolute;
 	left: 20px;
 	bottom: 20px;
+	margin-left: 150px;
 }
 .main-title>ul>li{
 	font-size: 1.2em;
@@ -484,7 +486,7 @@ main{
 	overflow: hidden;
 	margin-left: 20px;
 	margin-top: 20px;
-	
+	margin-left: 170px;
 }
 .body-title>ul>li{
 	font-size: 1.2em;
@@ -503,6 +505,7 @@ main{
 	overflow: hidden;
 	margin-top: 55px;
 	margin-left: 20px;
+	margin-left: 170px;
 }
 .body-btns>ul>li{
 	float: left;
@@ -540,7 +543,7 @@ main{
 /* 列表菜单栏 */
 .body-title2{
 	overflow: hidden;
-	margin-left: 63px;
+	margin-left: 213px;
 	margin-top: 40px;
 }
 .body-title2>ul>li{
@@ -551,15 +554,15 @@ main{
 	margin-right: 520px;
 }
 .body-title2>ul>li:nth-of-type(2){
-	margin-right: 500px;
+	margin-right: 400px;
 }
 .body-title2>ul>li:nth-of-type(3){
-	margin-right: 500px;
+	margin-right: 400px;
 }
 /* 歌曲格式 */
 .body-musics{
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 170px;
 	overflow: hidden;
 }
 
@@ -586,10 +589,10 @@ main{
 	left: 585px;
 }
 .musics-Album{
-	left: 1120px;
+	left: 1020px;
 }
 .musics-duration{
-	left: 1645px;
+	left: 1445px;
 }
 .musics-btns{
 	left: 400px;

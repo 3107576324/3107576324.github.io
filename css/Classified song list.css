@@ -211,7 +211,7 @@ main{
 /* 页脚 */
 .footer{
 	height: 645px;
-	width: 1714px;
+	width: 100%;
 	background-color: rgb(51,51,51);
 	position: relative;
 	display:block;
@@ -247,7 +247,7 @@ main{
 .logo2{
 	position: absolute;
 	top: 125px;
-	left: 720px;
+	left: 820px;
 	width: 350px;
 	height: 170px;
 }
@@ -287,7 +287,7 @@ main{
 .logo3{
 	position: absolute;
 	top: 125px;
-	right: 250px;
+	right: 300px;
 	width: 290px;
 	height: 170px;
 }
@@ -345,7 +345,7 @@ main{
 .logo6{
 	position: absolute;
 	bottom: -640px;
-	left: 480px;
+	left: 580px;
 	width: 690px;
 	height: 70px;
 	display: flex;
@@ -385,6 +385,7 @@ main{
 	margin-top: 10px;
 	margin-left: 29px;
 	}
+
 
 /* =========================== */
 /* 内容部分 */
