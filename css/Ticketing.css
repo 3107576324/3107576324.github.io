@@ -530,7 +530,7 @@ overflow: hidden;
 	margin-left: 60px;
 	width: 315px;
 	height: 415px;
-	background-color: #0000FF;
+	/* background-color: #0000FF; */
 	position: relative;
 	overflow: hidden;
 	margin-right: 20px;

@@ -498,9 +498,9 @@ main{
 	padding-bottom: 60px;
 }
 /* 更多 */
-.NDL-title2>span{
+.NDL-title2>a>span{
 	position: absolute;
-	right: 250px;
+	right: 150px;
 	top: 0px;
 }
 .NDL-title2>span:hover{
@@ -575,9 +575,9 @@ main{
 .RL-title{
 	position: relative;
 }
-.RL-title>span{
+.RL-title>a>span{
 	position: absolute;
-	right: 265px;
+	right:30px;
 	top: 10px;
 }
 .RL-title>span:hover{
@@ -735,9 +735,9 @@ main{
 	color:rgb(49,194,124) ;
 }
 /* 更多 */
-.MV-title2>span{
+.MV-title2>a>span{
 	position: absolute;
-	right: 250px;
+	right: 120px;
 	top: 0px;
 }
 .MV-title2>span:hover{
@@ -787,15 +787,16 @@ main{
 	margin-bottom: 55px;
 }
 #Carouselmap5>div>div>ul{
-	margin-left: 80px;
+	margin-left: 100px;
 	margin-top: 55px;
 }
 #Carouselmap5{
-	margin-left: 120px;
+	margin-left: -30px;
 }
 /* ==================================================== */
 /* 页脚 */
 .footer{
+	z-index: 1;
 	height: 645px;
 	width: 100%;
 	background-color: rgb(51,51,51);
